@@ -28,6 +28,8 @@ public:
     void setSuperPowerLevel(int superPowerLevel);
     void setSpecialAbility(string specialAbility);
 
+    void displayInfo() const;
+
 
 
 };
