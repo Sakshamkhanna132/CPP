@@ -3,6 +3,9 @@
 #include <string>
 using namespace std;
 
+// Default constructor
+Human::Human() : name("Unknown"), age(0), height(0.0) {}
+
 Human::Human(string name, int age, double height) {
         this->name = name;     
         this->age = age;       

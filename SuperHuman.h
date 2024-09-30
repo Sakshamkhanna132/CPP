@@ -5,16 +5,19 @@
 #include <iostream>
 using namespace std;
 
-class SuperHuman : Human {
+
+class SuperHuman : public Human { // Changed to public inheritance
 
 private:
-
     string planet;
     string environment;
     int superPowerLevel;
     string specialAbility;
 
 public:
+
+    // Default constructor
+    SuperHuman();
 
     SuperHuman(string name, int age, double height, string planet, string environment, int superPowerLevel, string specialAbility);
 

@@ -3,6 +3,9 @@
 #include <string>
 using namespace std;
 
+// Default constructor (needed for std::vector)
+SuperHuman::SuperHuman()
+    : Human(), planet("Unknown"), environment("Unknown"), superPowerLevel(0), specialAbility("None") {}
 
 SuperHuman::SuperHuman(string name, int age, double height, string planet, string environment, int superPowerLevel, string specialAbility) : Human(name, age, height) {
     this->planet = planet;

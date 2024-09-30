@@ -12,6 +12,10 @@ private:
     double height;   
 
 public:
+
+    // Default constructor
+    Human();
+
     // Constructor: Because we need a way to actually create humans, obviously
     Human(string name, int age, double height);
 
